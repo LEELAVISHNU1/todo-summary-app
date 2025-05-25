@@ -29,26 +29,26 @@ $RECYCLE.BIN/
 # ========================================
 # Node.js / React (Frontend)
 # ========================================
-**/node_modules/
-**/dist/
-**/build/
-**/.cache/
-**/temp/
-**/coverage/
-**/.vite/
+node_modules/
+dist/
+build/
+.cache/
+temp/
+coverage/
+.vite/
 *.code-workspace
 *.patch
 *.diff
 
-# Optional: lock files
+# Lock files (optional to include)
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
 
 # ========================================
 # Java / Maven / Spring Boot (Backend)
-# Ignore build output and IDE junk
-**/target/
+# ========================================
+target/
 *.class
 *.jar
 *.war
@@ -60,18 +60,11 @@ logs/
 log/
 *.log.*
 
-# Maven wrapper (except required JAR)
+# Maven wrapper
 .mvn/
 !/.mvn/wrapper/maven-wrapper.jar
 mvnw
 mvnw.cmd
-
-# Ignore all application config files EXCEPT default/main one
-# Adjust if using multiple env-specific YAMLs
-#application*.properties
-#application*.yml
-!src/main/resources/application.yml
-!src/main/resources/application.properties
 
 # ========================================
 # IDEs and Editors
@@ -124,7 +117,7 @@ doc/
 
 # ========================================
 # Application Config (Optional)
-# Keep only specific config files if required
-# Customize based on your needs
-#application-dev.yml
-#application-prod.yml
+# ========================================
+application*.properties
+application*.yml
+!application-default.properties
