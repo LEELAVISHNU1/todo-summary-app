@@ -59,7 +59,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Todo Summary Assistant</h1>
+      <h1 className="title">📝 Todo Summary Assistant</h1>
       {error && <div className="error-message">{error}</div>}
       <AddTodo onAdd={handleAddTodo} />
       <TodoList todos={todos} onDelete={handleDeleteTodo} onEdit={handleEditTodo} />
