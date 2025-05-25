@@ -1,0 +1,123 @@
+# ========================================
+# General
+# ========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
+$RECYCLE.BIN/
+*.seed
+*.pid
+*.dump
+
+# ========================================
+# Environment Files
+# ========================================
+.env
+.env.local
+.env.dev
+.env.test
+.env.prod
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================================
+# Node.js / React (Frontend)
+# ========================================
+node_modules/
+dist/
+build/
+.cache/
+temp/
+coverage/
+.vite/
+*.code-workspace
+*.patch
+*.diff
+
+# Lock files (optional to include)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ========================================
+# Java / Maven / Spring Boot (Backend)
+# ========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.h2.db
+*.db
+*.sql
+logs/
+log/
+*.log.*
+
+# Maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ========================================
+# IDEs and Editors
+# ========================================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.factorypath
+.settings/
+.sts4-cache
+.apt_generated
+.springBeans
+.metadata/
+*.pydevproject
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nb-gradle/
+
+# IntelliJ logs
+out/
+
+# ========================================
+# Test coverage / Debug
+# ========================================
+jacoco.exec
+*.gcda
+*.gcno
+test-results.xml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================================
+# Docs & Office Files (Optional)
+# ========================================
+doc/
+*.pdf
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# ========================================
+# Application Config (Optional)
+# ========================================
+application*.properties
+application*.yml
+!application-default.properties
